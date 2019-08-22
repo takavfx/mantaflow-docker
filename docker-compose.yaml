@@ -1,0 +1,7 @@
+version: '2.3'
+mantaflow:
+  build: .
+  volume:
+    - /c/username/work:/work
+  # Apply this settings if nvidia runtime is available on your environemnt.
+  # runtime: nvidia
